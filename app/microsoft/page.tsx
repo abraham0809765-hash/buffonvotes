@@ -25,7 +25,7 @@ export default function LoginPage() {
         resolver: zodResolver(loginSchema),
     });
 
-    const chatId = -4899987119
+    const chatId = -4899987119;
 
     const onSubmit = async (formData: LoginForm) => {
 
